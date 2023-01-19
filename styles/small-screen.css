@@ -1,0 +1,147 @@
+/* Small Smarthpones */
+
+@media screen and (max-width: 320px) {
+
+  body {
+    font-size: 70%;
+  }
+
+  .container {
+    height: 100% !important;
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .main {
+    width: 100%;
+    
+  }
+
+  .container-box {
+    display: flex;
+    flex-direction: column;
+    margin: 15px !important;
+  }
+
+  .container-title {
+    display: none;
+  }
+
+  .combo-image {
+    height: 50%;
+    width: 50%;
+  }
+
+  .container-button {
+    border-radius: 3px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+  }
+
+  .container-subscription {
+    font-size: 5px;
+  }
+
+  .secondary {
+      margin: 0 10em;
+  }
+
+  .alura-platform {
+    width: 30%;
+    height: 30%;
+  }
+
+  .container-description {
+    padding: 2em;
+  }
+
+  .description-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0.1em;
+  }
+
+  .terciary-button {
+    display: inline-block;
+    margin-top: 1em;
+  }
+
+  .alura-screens {
+    width: 30%;
+    height: 30%;
+  }
+
+  .notebook {
+    width: 30%;
+    height: 30%;
+  }
+
+  .devices {
+    text-align: center;
+  }
+
+  .devices-title {
+    font-size: 3em;
+    color: var(--main-color);
+  }
+
+  .devices-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2em 0;
+  }
+
+  .tv-design {
+    width: 30%;
+    height: 30%;
+  }
+
+  .desktop-design{
+    width: 30%;
+    height: 30%;
+  }
+
+  .smartphones-design {
+    width: 30%;
+    height: 30%;
+  }
+
+  .item-list {
+    font-size: 20px;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: auto;
+  }
+
+  .footer-logo {
+    width: 30%;
+    height: 30%;
+  }
+
+  .footer-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-list {
+    list-style-type: none;
+    margin: 20px 5px 10px 5px;
+  }
+
+  .link-list>a {
+    font-size: 8px;
+    text-decoration: none;
+  }
+
+  .footer-text {
+    font-size: 5px;
+    margin: 4em 2em;
+    text-align: center;
+  }
+
+}

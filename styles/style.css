@@ -19,10 +19,6 @@ body {
     font-weight: 400;
 }
 
-.container-box {
-    margin: 6em;
-}
-
 .container {
     height: 100vh;
     display: grid;
@@ -30,11 +26,15 @@ body {
 }
 
 .main {
-    background-image: url(img/background.png);
+    background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
     text-align: center;
+}
+
+.container-box {
+    margin: 6em;
 }
 
 .container-title {
@@ -42,7 +42,7 @@ body {
     font-weight: 700;
 }
 
-.container-image {
+.combo-image {
     margin: 1em 0 2em 0;
 }
 
@@ -71,6 +71,14 @@ body {
     margin: 0 10em;
 }
 
+.alura-platform {
+    
+}
+
+.container-description {
+    padding: 2em;
+}
+
 .description-title {
     font-weight: 700;
     font-size: 48px;
@@ -82,13 +90,17 @@ body {
     color: var(--secondary-color);
 }
 
-.container-description {
-    padding: 2em;
-}
-
 .terciary-button {
     display: inline-block;
     margin-top: 1em;
+}
+
+.alura-screens {
+
+}
+
+.notebook {
+
 }
 
 .devices {
@@ -107,6 +119,18 @@ body {
     margin: 4em 0;
 }
 
+.tv-design {
+
+}
+
+.desktop-design{
+
+}
+
+.smartphones-design {
+
+}
+
 .item-list {
     font-size: 32px;
     color: var(--main-color);
@@ -115,6 +139,10 @@ body {
 .footer {
     text-align: center;
     margin-top: 6em;
+}
+
+.footer-logo {
+    
 }
 
 .footer-list {
