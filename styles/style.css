@@ -65,6 +65,11 @@ body {
     background-color: #62091c;
 }
 
+.container-subscription {
+    color: #c0c0c0;
+    font-size: 14px;
+}
+
 .secondary-button {
     background-color: transparent;
     border: 2px solid var(--main-color);
@@ -76,14 +81,21 @@ body {
     font-weight: 700;
 }
 
-.container-subscription {
-    color: #c0c0c0;
-    font-size: 14px;
-}
-
 .secondary {
     align-items: center;
     margin: 0 3%;
+}
+
+.alura-platform {
+    width: 80%;
+}
+
+.alura-screens {
+    width: 80%;
+}
+
+.notebook {
+    width: 80%;
 }
 
 .container-description {
@@ -152,5 +164,5 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-
+    
 }
