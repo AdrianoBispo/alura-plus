@@ -1,7 +1,7 @@
 :root {
     --main-color: #fff;
     --secondary-color: #c0c0c0;
-    --button-color: #167bf7;
+    --button-color: #f7164e;
     --background-color: #00030C;
     --main-font: 'Inter';
 }
@@ -56,9 +56,24 @@ body {
     margin-bottom: 2%;
 }
 
+.container-button:hover {
+    translate: 0% -15%;
+}
+
+.container-button:active {
+    transform: scale(0.9);
+    background-color: #62091c;
+}
+
 .secondary-button {
     background-color: transparent;
     border: 2px solid var(--main-color);
+}
+
+.secondary-button:active {
+    color: #00030C;
+    background-color: #e1dede;
+    font-weight: 700;
 }
 
 .container-subscription {
