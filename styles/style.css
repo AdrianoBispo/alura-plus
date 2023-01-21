@@ -164,5 +164,11 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-    
+    .link-list>a {
+        font-size: 11px;
+    }
+
+    .link-list>a:hover {
+        color: var(--button-color);
+    }
 }
