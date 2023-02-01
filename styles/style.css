@@ -320,11 +320,6 @@ body {
         font-size: 8px;
     }
 
-    .container-description {
-        margin: 0 1em;
-        text-align: center;
-    }
-
     .description-title {
         font-size: 1em;
         text-align: center;
@@ -355,13 +350,25 @@ body {
     }
 }
 
-@media screen and (max-width: 420px) {
-    body {
-        font-size: 8px;
-    }
-
+@media screen and (max-width: 430px) {
     .container-title {
         font-size: 12px;
     }
 
+    .container-subscription {
+        font-size: 6px;
+    }
+
+    .description-text {
+        font-size: 6px;
+    }
+
+    .devices-title {
+        font-size: 14px;
+    }
+
+    .item-list {
+        font-size: 8px;
+    }
 }
+
