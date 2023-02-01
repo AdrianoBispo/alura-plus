@@ -256,10 +256,16 @@ body {
 
 }
 
-/*
-@media screen and (max-width: 768px) {
-    .link-list>a {
-        font-size: 8px;
+@media screen and (max-width: 1024px) {
+    .container-title {
+        display: none;
     }
 
-} */
+    .container-subscription {
+        font-size: 12px;
+    }
+
+    .footer-text {
+        font-size: 12px;
+    }
+}
