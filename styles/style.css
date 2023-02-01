@@ -183,6 +183,7 @@ body {
     margin: 1em 5em;
 }
 
+/* Desktop Screen Adaptation */
 @media screen and (max-width: 1400px) {
     body {
         font-size: 14px;
@@ -256,6 +257,7 @@ body {
 
 }
 
+/* Tablets Screen Adaptation */
 @media screen and (max-width: 1024px) {
     .container-title {
         display: none;
@@ -300,6 +302,7 @@ body {
     }
 }
 
+/* Smartphone Screen Adaptation */
 @media screen and (max-width: 600px) {
     body {
         font-size: 12px;
