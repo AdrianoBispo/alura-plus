@@ -134,6 +134,18 @@ body {
     margin: 3em 0;
 }
 
+.tv-design {
+    width: 100%;
+}
+
+.desktop-design {
+    width: 100%;
+}
+
+.smartphone-design {
+    width: 100%;
+}
+
 .item-list {
     font-size: 2em;
     color: var(--main-color);
@@ -242,12 +254,6 @@ body {
         width: 40%;
     }
 
-}
-
-@media screen and (max-width: 1034px) {
-    .devices {
-        margin: 0 10em;
-    }
 }
 
 /*
