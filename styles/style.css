@@ -87,15 +87,17 @@ body {
 }
 
 .alura-platform {
-    width: 80%;
+    width: 65%;
+    margin: 0 0 0 3em;
 }
 
 .alura-screens {
-    width: 80%;
+    width: 70%;
 }
 
 .notebook {
-    width: 80%;
+    width: 60%;
+    margin: 0 0 0 2em;
 }
 
 .container-description {
