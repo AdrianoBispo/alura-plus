@@ -313,15 +313,21 @@ body {
 
     .container-button {
         width: 50%;
-        margin-left: 20%;
+        margin-left: 23%;
     }
 
     .container-subscription {
-        font-size: 1em;
+        font-size: 8px;
+    }
+
+    .container-description {
+        margin: 0 1em;
+        text-align: center;
     }
 
     .description-title {
-        font-size: 1.5em;
+        font-size: 1em;
+        text-align: center;
     }
 
     .description-text {
@@ -329,11 +335,19 @@ body {
     }
     
     .devices-title {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .item-list {
-        font-size: 1.3em;
+        font-size: 1em;
+    }
+
+    .link-list>a {
+        font-size: 8px;
+    }
+
+    .footer-logo {
+        width: 10%;
     }
 
     .footer-text {
