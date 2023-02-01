@@ -244,14 +244,13 @@ body {
 
 }
 
-/*
-@media screen and (max-width: 860px) {
-    .link-list>a {
-        font-size: 9px;
+@media screen and (max-width: 1034px) {
+    .devices {
+        margin: 0 10em;
     }
-
 }
 
+/*
 @media screen and (max-width: 768px) {
     .link-list>a {
         font-size: 8px;
