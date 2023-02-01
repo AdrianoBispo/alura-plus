@@ -302,11 +302,22 @@ body {
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: 10px;
+        font-size: 12px;
     }
     
+    .main {
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-button {
+        width: 50%;
+        margin-left: 20%;
+    }
+
     .container-subscription {
-        font-size: 6px;
+        font-size: 1em;
     }
 
     .description-title {
@@ -314,10 +325,29 @@ body {
     }
 
     .description-text {
-        font-size: 6px;
+        font-size: 8px;
     }
     
+    .devices-title {
+        font-size: 2em;
+    }
+
+    .item-list {
+        font-size: 1.3em;
+    }
+
     .footer-text {
         font-size: 6px;
     }
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        font-size: 8px;
+    }
+
+    .container-title {
+        font-size: 12px;
+    }
+
 }
