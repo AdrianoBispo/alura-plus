@@ -265,14 +265,30 @@ body {
         font-size: 12px;
     }
 
+    .devices-title {
+        font-size: 2.3em;
+    }
+
+    .item-list {
+        font-size: 1.5em;
+    }
+
     .footer-text {
         font-size: 12px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 890px) {
     body {
         font-size: 12px;
+    }
+
+    .description-title {
+        font-size: 1.5em;
+    }
+
+    .description-text {
+        font-size: 10px;
     }
 
     .container-subscription {
@@ -281,5 +297,27 @@ body {
 
     .footer-text {
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 10px;
+    }
+    
+    .container-subscription {
+        font-size: 6px;
+    }
+
+    .description-title {
+        font-size: 1.5em;
+    }
+
+    .description-text {
+        font-size: 6px;
+    }
+    
+    .footer-text {
+        font-size: 6px;
     }
 }
