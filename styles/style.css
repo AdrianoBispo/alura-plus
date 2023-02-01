@@ -107,14 +107,14 @@ body {
 
 .description-title {
     font-weight: 700;
-    font-size: 2em;
+    font-size: 2.3em;
     color: var(--main-color);
     margin-bottom: 8px;
 }
 
 .description-text {
     color: var(--secondary-color);
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .devices {
